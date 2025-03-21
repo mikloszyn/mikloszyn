@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-black text-white font-sans">
+    <div class="p-4">
+        <div class="flex justify-between items-center mb-4">
+            <i class="fas fa-chevron-left text-red-500"></i>
+            <span class="text-red-500 text-xl">2025</span>
+            <div class="flex space-x-4">
+                <i class="fas fa-bars text-red-500"></i>
+                <i class="fas fa-search text-red-500"></i>
+                <i class="fas fa-plus text-red-500"></i>
+            </div>
+        </div>
+        <div class="text-4xl font-bold mb-2">Marzec</div>
+        <div class="grid grid-cols-7 text-center text-gray-400 mb-2">
+            <div>P</div>
+            <div>W</div>
+            <div>Ś</div>
+            <div>C</div>
+            <div>P</div>
+            <div>S</div>
+            <div>N</div>
+        </div>
+        <div class="grid grid-cols-7 text-center text-lg">
+            <div class="text-gray-600">1</div>
+            <div class="text-gray-600">2</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div class="relative">
+                <span>4</span>
+                <span class="absolute top-0 right-0 bg-purple-600 text-xs rounded-full px-1">Ostatki</span>
+            </div>
+            <div class="relative">
+                <span>7</span>
+                <span class="absolute top-0 right-0 bg-purple-600 text-xs rounded-full px-1">Między</span>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+            <div class="relative">
+                <span>10</span>
+                <span class="absolute top-0 right-0 bg-purple-600 text-xs rounded-full px-1">Dzień M</span>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>17</div>
+            <div>18</div>
+            <div>19</div>
+            <div>20</div>
+            <div class="relative">
+                <span class="bg-red-500 text-white rounded-full px-2">21</span>
+            </div>
+            <div>22</div>
+            <div>23</div>
+            <div>24</div>
+            <div>25</div>
+            <div>26</div>
+            <div>27</div>
+            <div>28</div>
+            <div>29</div>
+            <div>30</div>
+        </div>
+    </div>
+    <div class="fixed bottom-0 left-0 right-0 bg-black text-red-500 flex justify-around py-2">
+        <div>Dzisiaj</div>
+        <div>Kalendarze</div>
+        <div>Przychodzące</div>
+    </div>
+</body>
+</html>
